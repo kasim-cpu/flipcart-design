@@ -1,0 +1,77 @@
+body{
+    background-color: #fff;
+}
+
+.cart-cell{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: transparent;
+
+.content-left{
+    // margin-right: 520px;
+    margin-top: 150px;
+
+    img{
+        height: 450px;
+       
+    }
+  }
+
+  .content-right{
+      display: flex;
+      flex-direction: column;
+      margin-top: 80px;
+
+    h1{
+        margin-top: 130px;
+        margin-left: 290px;
+        color: #727179;
+    }
+
+    input[type=text], input[type=password] {
+        width: 80%;
+        margin-left: 310px;
+        margin-top: 50px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+    }
+
+    button{
+        width: 80%;
+        margin-left: 310px;
+        margin-top: 50px;
+        background-color: #00BFA6;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        letter-spacing: 5px;
+        padding: 15px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    button:hover {
+        opacity: 0.8;
+      }
+    p{
+        color: #D3D2D8;
+        margin-left: 500px;
+        margin-top: 30px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    h4{
+        color: #00BFA6;
+        margin-left: 520px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    h5{
+        color: #D3D2D8;
+        margin-left: 510px;
+        margin-top: 120px;
+    }
+   
+  }
+}
